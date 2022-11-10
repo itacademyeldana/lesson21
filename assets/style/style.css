@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background: none;
+    border: none;
+}
+
+.container {
+    max-width: 375px;
+    padding: 68px 29px 0;
+    margin: 0 auto;
+}
+.main__content {
+    padding-bottom: 83px;
+}
+.main__title {
+    margin-bottom: 23px;
+    font-size: 47px;
+
+}
+.main__desk {
+    margin-bottom: 37px;
+    font-size: 18px;
+}
+.about {
+    text-align: center;
+    background: #F6F6F6;
+}
+.about__content {
+    padding: 81px 0 76px 0;
+}
+.about__title {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.about__desk {
+    width: 316px;
+    font-size: 18px;
+}
+.skills {
+    text-align: center;
+}
+.skills svg {
+    margin-bottom: 24px;
+}
+.skills__content {
+    padding: 83px 0 98px;
+
+}
+.skills__title {
+    font-size: 34px;
+    margin-bottom: 50px;
+    line-height: 42px;
+}
+.skills__desk {
+    font-size: 18px;
+    margin-bottom: 70px;
+    line-height: 22px;
+}
+.skills__card {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills__card-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+
